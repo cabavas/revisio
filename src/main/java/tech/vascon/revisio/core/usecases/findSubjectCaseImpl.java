@@ -7,7 +7,7 @@ import tech.vascon.revisio.core.enums.Priority;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class FindSubjectCaseImpl implements FindSubjectCase {
+public class findSubjectCaseImpl implements findSubjectCase {
     @Override
     public Subject byId(Long id) {
         return null;

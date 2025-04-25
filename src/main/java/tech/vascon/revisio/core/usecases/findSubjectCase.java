@@ -7,7 +7,7 @@ import tech.vascon.revisio.core.enums.Priority;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public interface FindSubjectCase {
+public interface findSubjectCase {
     public Subject byId(Long id);
     public List<Subject> byCategory(Category category);
     public List<Subject> byPriority(Priority priority);
